@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="56c318aa-9ace-463c-b866-4ab50925299b" Title="MatrixWalk" Url="html/6660d022-5838-2e7f-8339-513f6a8abbad.htm">
+    <HelpTOCNode Id="c222f75b-a044-4524-866e-6c075c4917d1" Title="Matrix Class" Url="html/23e825d9-4c3e-5665-9ea5-bfd49e897c66.htm">
+      <HelpTOCNode Title="Matrix Constructor " Url="html/664b55b2-1d91-0cd9-eefa-07e037b0184d.htm" />
+      <HelpTOCNode Id="50f12c57-d51c-498c-9e49-24b6fc36b7f3" Title="Matrix Methods" Url="html/3925ff37-464f-af9f-ae59-304cd594b8cb.htm">
+        <HelpTOCNode Title="UpdateSeparateValue Method " Url="html/c1946bac-009d-56c4-3ef8-76f4fbd57b8a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3545bbd8-27d7-4b8c-89bc-d223c0486271" Title="Matrix Properties" Url="html/036d1fb3-d8b5-8cc1-9ebf-5bd02ac4e4be.htm">
+        <HelpTOCNode Title="ColCount Property " Url="html/08e7a619-263e-355f-7351-6ebe8f25ade1.htm" />
+        <HelpTOCNode Title="MatrixValues Property " Url="html/f148d2b2-d6bf-5231-bd88-5bf05ec8b611.htm" />
+        <HelpTOCNode Title="RowCount Property " Url="html/6ecdfd06-b259-9124-60ac-8895ed71b944.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d8a5eaa7-6f48-43c5-bc76-3cc3b23fece1" Title="Position Class" Url="html/42359abd-fa08-f800-b683-cffe2773f2ff.htm">
+      <HelpTOCNode Title="Position Constructor " Url="html/dc2521b3-f257-2e3f-2e3f-3d9b836e9706.htm" />
+      <HelpTOCNode Title="Position Methods" Url="html/1f7c3b07-408c-ec46-71e3-f533170009eb.htm" />
+      <HelpTOCNode Id="d93818d3-f760-40cf-85a2-1a93aaf896fa" Title="Position Properties" Url="html/bb0d231e-4f38-3b0a-737f-6181703fc708.htm">
+        <HelpTOCNode Title="ColNumber Property " Url="html/469a8a50-0718-dfb3-b770-f2d290a2cf1d.htm" />
+        <HelpTOCNode Title="RowNumber Property " Url="html/d0c50b51-deee-1184-1023-1ce6df950592.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="87d3f5dc-7522-4f32-95f0-39d6ec6f8f5a" Title="Walk Class" Url="html/4b03896a-f97b-2451-7e22-f8a403874114.htm">
+      <HelpTOCNode Title="Walk Constructor " Url="html/676f7784-b29e-0186-71eb-879bf4c6da47.htm" />
+      <HelpTOCNode Id="f217c587-bb6b-4a5c-8b5e-09b56294e91d" Title="Walk Methods" Url="html/93a72677-808c-50b2-d9f1-dc5e9c4f8d42.htm">
+        <HelpTOCNode Title="StartWalk Method " Url="html/be7b2c3b-e71d-e0bf-320b-19a78843348d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1430a917-d74b-4e14-9bc7-ce21fd07e552" Title="Walk Properties" Url="html/fece1810-c782-b99c-8902-45eed819a058.htm">
+        <HelpTOCNode Title="Field Property " Url="html/0dde0056-f14a-d8f1-cfa4-6541f35ef25d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

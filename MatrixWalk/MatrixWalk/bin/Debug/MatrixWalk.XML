@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MatrixWalk</name>
+    </assembly>
+    <members>
+        <member name="T:MatrixWalk.Matrix">
+            <summary>
+            This class represents a matrix that for the current task has to be square. 
+            </summary>
+        </member>
+        <member name="M:MatrixWalk.Matrix.#ctor(System.Int32)">
+            <summary>
+            Create a matrix by given count of rows. For the current task the matrix has to be square, so the count of rows is the same as
+            the count of columns.
+            </summary>
+            <param name="countOfRows">Size of the matrix.</param>
+        </member>
+        <member name="M:MatrixWalk.Matrix.UpdateSeparateValue(MatrixWalk.Position,System.Int32)">
+            <summary>
+            This method sets the value of an individual cell in the array of values.
+            </summary>
+            <param name="currentPosition">Position of the current cell- a position has row and column number.</param>
+            <param name="currentValue">The value to set to the current cell- it must be between 1 and the squared value of the row count.</param>
+        </member>
+        <member name="M:MatrixWalk.Matrix.MakeDeepCopyOfValues(System.Int32[0:,0:])">
+            <summary>
+            This is a method that makes a deep copy of a given array, in the current class used to make a deep copy of the matrix values, so that
+            the array of values isn't returned directly and its manipulation is accessible only via the UpdateSeparateValue method. 
+            </summary>
+            <param name="valuesOfMatrix">The array to clone.</param>
+            <returns>The copy array.</returns>
+        </member>
+        <member name="P:MatrixWalk.Matrix.MatrixValues">
+            <summary>
+            The two dimensional int array that holds the values of the current matrix.
+            </summary>
+        </member>
+        <member name="P:MatrixWalk.Matrix.RowCount">
+            <summary>
+            The number of rows in the matrix.
+            </summary>
+        </member>
+        <member name="P:MatrixWalk.Matrix.ColCount">
+            <summary>
+            The number of columns in the matrix- for the current task the number of rows and the number of columns are the same.
+            </summary>
+        </member>
+        <member name="T:MatrixWalk.Position">
+            <summary>
+            This class represents a position with given row and column number.
+            </summary>
+        </member>
+        <member name="M:MatrixWalk.Position.#ctor(System.Int32,System.Int32)">
+            <summary>
+            The constructor of the class.
+            </summary>
+            <param name="numberOfRows">Number of the given row.</param>
+            <param name="numberOfCols">Number of the given column.</param>
+        </member>
+        <member name="P:MatrixWalk.Position.RowNumber">
+            <summary>
+            Number of row of the given position.
+            </summary>
+        </member>
+        <member name="P:MatrixWalk.Position.ColNumber">
+            <summary>
+            Number of column of the given position. 
+            </summary>
+        </member>
+        <member name="T:MatrixWalk.Walk">
+            <summary>
+            The class walk represents a walk in the matrix by given directions, assuming that a cell can be visited all but once and the walk can't
+            go outside the matrix.
+            </summary>
+        </member>
+        <member name="F:MatrixWalk.Walk.directionIncrements">
+            <summary>
+            The array of positions holds the possible directions for the current walk.
+            </summary>
+        </member>
+        <member name="F:MatrixWalk.Walk.directionChangeIndex">
+            <summary>
+            A field that holds the index of the currently used direction.
+            </summary>
+        </member>
+        <member name="M:MatrixWalk.Walk.#ctor(MatrixWalk.Matrix)">
+            <summary>
+            Constructor for the Walk class- creates a walk associated to a given matrix.
+            </summary>
+            <param name="matrix">The matrix to perform the walk in.</param>
+        </member>
+        <member name="M:MatrixWalk.Walk.StartWalk">
+            <summary>
+            This method is performing the actual walk, starting with the position 0,0. Afterwards, for every value to fill in the field, a new position
+            is calculated using the ComputeNextPosition method. 
+            </summary>
+        </member>
+        <member name="M:MatrixWalk.Walk.ComputeNextPosition(MatrixWalk.Position,System.Int32)">
+            <summary>
+            The method calculates a new position in the matrix in the current direction, if that doesn't lead outside the matrix or to an already
+            visited cell. Should such case occur, the direction change index and the turn counter increase and the method is called again. If
+            a full spin is made and a valid position is still not found, the next free cell that fits the criteria is picked.
+            </summary>
+            <param name="currentPosition">Position of the current cell.</param>
+            <param name="turnCounter">How many times the direction has been changed for the cell we are searching a position for..</param>
+            <returns>The position of the next value.</returns>
+        </member>
+        <member name="M:MatrixWalk.Walk.ChangeDirection">
+            <summary>
+            This method increases the direction index. If it has reached the last index, the direction is reset to 0. 
+            
+            </summary>
+        </member>
+        <member name="M:MatrixWalk.Walk.CheckIfPositionIsValid(System.Int32,System.Int32)">
+            <summary>
+            Method to check if the position found is valid- namely if it's within the matrix and hasn't been visited yet.
+            </summary>
+            <param name="nextRow">Row of the found position.</param>
+            <param name="nextCol">Column of the found position.</param>
+            <returns>Boolean result- true if the position is valid, false- if it isn't.</returns>
+        </member>
+        <member name="M:MatrixWalk.Walk.CheckIfPositionIsInRange(System.Int32,System.Int32)">
+            <summary>
+            This method checks if the given position is within the matrix.
+            </summary>
+            <param name="row">Row of the position.</param>
+            <param name="col">Column of the position.</param>
+            <returns>True if the position is within the matrix, false- if it's outside.</returns>
+        </member>
+        <member name="M:MatrixWalk.Walk.CheckIfPositionIsAvailable(System.Int32,System.Int32)">
+            <summary>
+            This method checks if the given position hasn't been assigned a value already. 
+            </summary>
+            <param name="row">Row of the given position.</param>
+            <param name="col">Column of the given position.</param>
+            <returns>True if the position is available, false- if it's not.</returns>
+        </member>
+        <member name="M:MatrixWalk.Walk.FindNextFreePosition">
+            <summary>
+            This method finds the next free position, when all directions around the current one give no result.
+            </summary>
+            <returns>The next free position.</returns>
+        </member>
+        <member name="M:MatrixWalk.Walk.PrintOutMatrix">
+            <summary>
+            This method prints the current values in the matrix. 
+            </summary>
+        </member>
+        <member name="P:MatrixWalk.Walk.Field">
+            <summary>
+            The matrix to walk in is represented as the property Field.
+            </summary>
+        </member>
+    </members>
+</doc>

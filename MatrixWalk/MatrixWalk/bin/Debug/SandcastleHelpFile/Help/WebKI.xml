@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="ColCount property" Url="html/08e7a619-263e-355f-7351-6ebe8f25ade1.htm" />
+  <HelpKINode Title="ColNumber property" Url="html/469a8a50-0718-dfb3-b770-f2d290a2cf1d.htm" />
+  <HelpKINode Title="Field property" Url="html/0dde0056-f14a-d8f1-cfa4-6541f35ef25d.htm" />
+  <HelpKINode Title="Matrix class">
+    <HelpKINode Title="Matrix Class" Url="html/23e825d9-4c3e-5665-9ea5-bfd49e897c66.htm" />
+    <HelpKINode Title="about Matrix class" Url="html/23e825d9-4c3e-5665-9ea5-bfd49e897c66.htm" />
+    <HelpKINode Title="constructor" Url="html/664b55b2-1d91-0cd9-eefa-07e037b0184d.htm" />
+    <HelpKINode Title="methods" Url="html/3925ff37-464f-af9f-ae59-304cd594b8cb.htm" />
+    <HelpKINode Title="properties" Url="html/036d1fb3-d8b5-8cc1-9ebf-5bd02ac4e4be.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Matrix.ColCount property" Url="html/08e7a619-263e-355f-7351-6ebe8f25ade1.htm" />
+  <HelpKINode Title="Matrix.Matrix constructor" Url="html/664b55b2-1d91-0cd9-eefa-07e037b0184d.htm" />
+  <HelpKINode Title="Matrix.MatrixValues property" Url="html/f148d2b2-d6bf-5231-bd88-5bf05ec8b611.htm" />
+  <HelpKINode Title="Matrix.RowCount property" Url="html/6ecdfd06-b259-9124-60ac-8895ed71b944.htm" />
+  <HelpKINode Title="Matrix.UpdateSeparateValue method" Url="html/c1946bac-009d-56c4-3ef8-76f4fbd57b8a.htm" />
+  <HelpKINode Title="MatrixValues property" Url="html/f148d2b2-d6bf-5231-bd88-5bf05ec8b611.htm" />
+  <HelpKINode Title="MatrixWalk namespace" Url="html/6660d022-5838-2e7f-8339-513f6a8abbad.htm" />
+  <HelpKINode Title="MatrixWalk.Matrix class" Url="html/23e825d9-4c3e-5665-9ea5-bfd49e897c66.htm" />
+  <HelpKINode Title="MatrixWalk.Position class" Url="html/42359abd-fa08-f800-b683-cffe2773f2ff.htm" />
+  <HelpKINode Title="MatrixWalk.Walk class" Url="html/4b03896a-f97b-2451-7e22-f8a403874114.htm" />
+  <HelpKINode Title="Position class">
+    <HelpKINode Title="Position Class" Url="html/42359abd-fa08-f800-b683-cffe2773f2ff.htm" />
+    <HelpKINode Title="about Position class" Url="html/42359abd-fa08-f800-b683-cffe2773f2ff.htm" />
+    <HelpKINode Title="constructor" Url="html/dc2521b3-f257-2e3f-2e3f-3d9b836e9706.htm" />
+    <HelpKINode Title="methods" Url="html/1f7c3b07-408c-ec46-71e3-f533170009eb.htm" />
+    <HelpKINode Title="properties" Url="html/bb0d231e-4f38-3b0a-737f-6181703fc708.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Position.ColNumber property" Url="html/469a8a50-0718-dfb3-b770-f2d290a2cf1d.htm" />
+  <HelpKINode Title="Position.Position constructor" Url="html/dc2521b3-f257-2e3f-2e3f-3d9b836e9706.htm" />
+  <HelpKINode Title="Position.RowNumber property" Url="html/d0c50b51-deee-1184-1023-1ce6df950592.htm" />
+  <HelpKINode Title="RowCount property" Url="html/6ecdfd06-b259-9124-60ac-8895ed71b944.htm" />
+  <HelpKINode Title="RowNumber property" Url="html/d0c50b51-deee-1184-1023-1ce6df950592.htm" />
+  <HelpKINode Title="StartWalk method" Url="html/be7b2c3b-e71d-e0bf-320b-19a78843348d.htm" />
+  <HelpKINode Title="UpdateSeparateValue method" Url="html/c1946bac-009d-56c4-3ef8-76f4fbd57b8a.htm" />
+  <HelpKINode Title="Walk class">
+    <HelpKINode Title="Walk Class" Url="html/4b03896a-f97b-2451-7e22-f8a403874114.htm" />
+    <HelpKINode Title="about Walk class" Url="html/4b03896a-f97b-2451-7e22-f8a403874114.htm" />
+    <HelpKINode Title="constructor" Url="html/676f7784-b29e-0186-71eb-879bf4c6da47.htm" />
+    <HelpKINode Title="methods" Url="html/93a72677-808c-50b2-d9f1-dc5e9c4f8d42.htm" />
+    <HelpKINode Title="properties" Url="html/fece1810-c782-b99c-8902-45eed819a058.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Walk.Field property" Url="html/0dde0056-f14a-d8f1-cfa4-6541f35ef25d.htm" />
+  <HelpKINode Title="Walk.StartWalk method" Url="html/be7b2c3b-e71d-e0bf-320b-19a78843348d.htm" />
+  <HelpKINode Title="Walk.Walk constructor" Url="html/676f7784-b29e-0186-71eb-879bf4c6da47.htm" />
+</HelpKI>

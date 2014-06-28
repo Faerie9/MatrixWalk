@@ -1,0 +1,9 @@
+E:\Telerik Academy\КПК\DevelopmentTools\Rep\Walk\MatrixWalk\MatrixWalkTests\bin\Release\MatrixWalkTests.dll
+E:\Telerik Academy\КПК\DevelopmentTools\Rep\Walk\MatrixWalk\MatrixWalkTests\bin\Release\MatrixWalkTests.pdb
+E:\Telerik Academy\КПК\DevelopmentTools\Rep\Walk\MatrixWalk\MatrixWalkTests\bin\Release\MatrixWalk.exe
+E:\Telerik Academy\КПК\DevelopmentTools\Rep\Walk\MatrixWalk\MatrixWalkTests\bin\Release\log4net.dll
+E:\Telerik Academy\КПК\DevelopmentTools\Rep\Walk\MatrixWalk\MatrixWalkTests\bin\Release\MatrixWalk.pdb
+E:\Telerik Academy\КПК\DevelopmentTools\Rep\Walk\MatrixWalk\MatrixWalkTests\bin\Release\log4net.xml
+E:\Telerik Academy\КПК\DevelopmentTools\Rep\Walk\MatrixWalk\MatrixWalkTests\obj\Release\MatrixWalkTests.csprojResolveAssemblyReference.cache
+E:\Telerik Academy\КПК\DevelopmentTools\Rep\Walk\MatrixWalk\MatrixWalkTests\obj\Release\MatrixWalkTests.dll
+E:\Telerik Academy\КПК\DevelopmentTools\Rep\Walk\MatrixWalk\MatrixWalkTests\obj\Release\MatrixWalkTests.pdb
